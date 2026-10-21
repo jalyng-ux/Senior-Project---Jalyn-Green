@@ -6,7 +6,7 @@
 - The scripts do not automatically change any Windows setting.
 
 ## Progress:
-- 15 STIG scripts completed & updated
+- 25 STIG scripts completed & updated
 - 10 additional STIG scripts planned
 - Goal: 50 STIG scripts
 
