@@ -1,4 +1,4 @@
-﻿# Test Paln/Master Script - run all 25 STIG checks. **soon 50
+﻿# Test Paln/Master Script - run all 50 STIG checks.
 # This script will not change any windows settings it will just run 
 # all scripts created and give a summary report.
 
@@ -18,8 +18,8 @@ $result = "" # Store output from each script
 "Date: $(Get-Date)" | Out-File $report -Append
 "--------------------------------" | Out-File $report -Append
 
-# Run STIG scripts 1-25 **soon 50
-for($i = 1; $i -le 25; $i++) {
+# Run STIG scripts 1-50
+for($i = 1; $i -le 50; $i++) {
 
     $script = "null"
     $result = ""
